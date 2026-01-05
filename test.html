@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test HTML File</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Test Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is a paragraph with some <strong>bold text</strong> and <em>italic text</em>.</p>
+            
+            <!-- Missing alt attribute -->
+            <img src="photo.jpg" width="300">
+            
+            <div class="container">
+                <p>Nested content here.
+                <!-- Unclosed paragraph tag -->
+        </section>
+
+        <section id="about">
+            <h2>About Section
+            <!-- Unclosed h2 tag -->
+            <p>This section talks about the website.</p>
+            
+            <!-- Deprecated tag -->
+            <center>
+                <font color="red">This is old-school HTML</font>
+            </center>
+            
+            <div>
+                <span>
+                    <div>Block element inside inline element - bad practice</div>
+                </span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <!-- Missing alt attribute -->
+                <img src="submit-icon.png">
+                
+                <button type="submit">Submit</button>
+            </form>
+        <!-- Missing closing section tag -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Test Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
